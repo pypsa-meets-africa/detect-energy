@@ -1,0 +1,42 @@
+name: ml-energy
+# conda env create -f requirements.yml
+# then conda activate dl
+# to remove, simply do conda env remove -n dl
+channels:
+- pytorch
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- python>=3.7
+- matplotlib
+- folium
+- shapely
+- geopandas
+- ipykernel
+- googledrivedownloader
+- gdrive
+- numpy
+- scikit-learn
+- attrdict
+- python-dotenv
+- zipfile
+
+# cuda and pytorch
+- cudatoolkit==11.3.1
+- pytorch=1.10
+- torchvision
+
+# snakemake
+- snakemake-minimal
+- yaml
+
+# compilers (for detectron2)
+- gcc <= 10  # limit up to v10 because of detectron2
+- gxx <= 10  # limit up to v10 because of detectron2
+
+- pip # needed to install pip dependencies below
+- pip:
+  - opencv-contrib-python
+  - git+https://github.com/facebookresearch/detectron2.git
+## detectron2==0.6+cu113 # use instead: python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html

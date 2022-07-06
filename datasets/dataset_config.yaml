@@ -1,0 +1,40 @@
+# Available datasets configuration and their corresponding downloading method.
+# Every row of datasets represent a methodology to download the specific dataset
+# The methodology to download each row is coded by the nake; gdrive stands for google drive
+datasets:
+  maxar_train:
+    gdrive: "1bW87dtWLwcvkLk-Wq0Z3BAk5deVKTJPw"
+  maxar_val:
+    gdrive: "1-5eScmX0bzcW2wUIEyU8o8hjtAKJNXZN"
+  duke_train:
+    gdrive: "1-FZdNPoId9uU5FS_b4doZAV-fEC27LGy"
+  duke_val:
+    gdrive: "1-17Mll4llFVy5w5o0EFaMrVejVWbPM2j"
+  fake_maxar_train:
+    gdrive: "1-1NjCRjZPQOg3-cHGLEkj4jQhUuhfgMU"
+  fake_maxar_val:
+    gdrive: "1WtQvQDm_KUCJ1c1QgU7gJA3bjnFqTztf"
+  manual_maxar_val:
+    gdrive: "1-52lUr-T5AA2iMMakumgijaZ6i7Sf5Ns"
+  duke_512_train:
+    gdrive: "1W3JptxEo9AK3YiY8mX47PmYMeEmNzn6Z"
+  duke_512_val:
+    gdrive: "1QtaShvrrY9LM3YJa8K2wt0ZAUkNRR9U0"
+  fake_australia_512_train:
+    gdrive: "1-0BJUVvkrjGzOkTdhRnygyp1G54AtCFU"
+  fake_australia_512_val:
+    gdrive: "1-3GifZ1wE98PSpDg9ft_yo9ffKyY-hCY"
+  australia_val:
+    gdrive: "1AQWAhwmgntPk9P046RD6Y6V66uXInTFY"
+  maxar2duke:
+    gdrive: "1IIK2zEEK20iOPYnR_QmVromlhKSMEQVI"
+  duke2australia:
+    gdrive: "1RlsIoNBAoGVR22wSqQbz8pwK8t2FOsyL"
+  duke2bangladesh:
+    gdrive: "1Q_nJrQ6-6rmnVfUfhYeaFNunbsX72poE"
+  duke2drc:
+    gdrive: "1-0hVIvhPHbqJTMxUI5OYtAQuBMXW1P2q"
+  duke2ghana:
+    gdrive: "1-2gAgmi29sZ-9jNV-byK3I2VlI5bnEeH"
+  transmission_04_train:
+    gdrive: "14Ytg2HuvyvDGQgr1mIWNojPrLOKFEjXK"
